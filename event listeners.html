@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title> Event Listeners </title>
+  </head>
+
+  <body>
+    <div id='hello_btn'>
+      say hello
+    </div>
+
+
+  <script>
+    document.getElementById('hello_btn').addEventListener('click', function(){
+      document.getElementById('hello_btn').style.backgroundColor = 'yellow';
+      console.log('clicked');
+    });
+  </script>
+
+  </body>
+</html>
